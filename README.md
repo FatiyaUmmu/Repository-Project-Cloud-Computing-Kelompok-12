@@ -53,9 +53,9 @@ Minggu 2 — Implementasi Infrastruktur Dasar.
 -  **Uptime Check**: Monitoring global (6 regions) ke `8.233.47.193:80/health` setiap 60 detik (latency rata-rata: ~747ms, status passing).
 -  **Cost Analysis & Optimization**: Estimasi ~$28–43/bulan. Optimasi biaya via resize VM (CPU usage <5%), planned committed use discount, & Cloud Storage lifecycle policies.
 
-### 🚀 Final Output & Deployment Status
+### Final Output & Deployment Status
 - **Live Demo**: [http://8.233.47.193](http://8.233.47.193)
-- **Architecture Status**: ✅ Production Ready
+- **Architecture Status**: Production Ready
 - **High Availability**: Load Balancer aktif mendistribusikan traffic ke 2 VM. Failover testing berhasil (sistem tetap accessible saat 1 VM down).
 - **Security Posture**: Hardened (Firewall restricted, DB internal-only, IAM least privilege, SCC clean audit).
 - **Testing Coverage**: Functional tests (100% pass), Load test (30 req, ~150ms avg, 50/50 distribution), Failure scenarios (VM down & storage validation handled).
