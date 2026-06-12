@@ -45,7 +45,7 @@ Minggu 2 — Implementasi Infrastruktur Dasar.
 -  **Health Check Endpoint**: `/health` (port 8080) mengembalikan JSON status, hostname, uptime, & timestamp untuk routing otomatis LB.
 -  **Functional Testing**: Upload, List, Delete, & Health check via curl/PowerShell — semua endpoint merespons `200 OK` dengan struktur JSON valid.
 
-### ✅ Minggu 4: Monitoring, Security & Optimization
+### Minggu 4: Monitoring, Security & Optimization
 -  **Alert Rules (4 Policies)**: High CPU (>80%), High Disk (>90%), Uptime Failure, & High Error Rate. Notifikasi email aktif ke seluruh anggota tim.
 -  **Backup & Recovery**: Cloud SQL automated daily backup, Point-in-Time Recovery (PITR) enabled, retention period 7 hari.
 -  **Monitoring Dashboard**: 4 widget utama real-time (CPU: 1.5–4%, Disk: ~68%, SQL Connections: 7.6–8.4, Request Count: normal/fluktuatif).
