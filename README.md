@@ -37,7 +37,7 @@ Minggu 1 — Perencanaan & Arsitektur.
 
 Minggu 2 — Implementasi Infrastruktur Dasar.
 
-### ✅ Minggu 3: Implementasi Layanan & Load Balancing
+### Minggu 3: Implementasi Layanan & Load Balancing
 -  **Cloud SQL Instance**: `filesharing-db` (MySQL 8.4 Enterprise Plus), Public IP: `34.101.210.122`, High Availability & automated backup enabled.
 -  **Cloud Storage Bucket**: `cfs-bucket-kelompok12` (Standard class, Not public, Soft delete & versioning enabled) dengan folder `uploads/` untuk menyimpan file.
 -  **Cloud CDN**: Origin `cfs-backend-service` dengan cache mode `Cache static content` terintegrasi ke Load Balancer untuk distribusi konten cepat.
